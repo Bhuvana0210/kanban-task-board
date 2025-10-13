@@ -45,7 +45,7 @@ export function AddTaskModal({
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
-      className="fixed inset-0 z-50 flex items-center justify-center"
+      className="fixed inset-0 z-50 flex items-center justify-center min-h-screen"
     >
       <div className="absolute inset-0 bg-foreground/10 dark:bg-foreground/20" onClick={onClose} />
       <div className="relative z-10 w-[92%] max-w-md rounded-lg border border-border bg-card p-4 shadow-lg">
