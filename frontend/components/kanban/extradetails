@@ -1,0 +1,21 @@
+Modal :
+
+A modal dialog (or modal window) is a user interface element that appears on top of the main application window, blocking interaction with the main content until the user interacts with the modal itself. It forces the user to focus on the modal by temporarily disabling the rest of the interface. For example, a popup asking you to confirm deleting a task is a modal dialog—you must respond before continuing.
+
+Kanban:
+
+A kanban is a visual workflow management method, often represented as columns (like "To Do," "In Progress," and "Done") with tasks as cards that move between columns. It helps visualize work stages and manage tasks efficiently. This method is widely used in project management and agile development.
+
+TaskContext and useTasks:
+
+TaskContext = all tasks data + app-wide task-related state & functions (global store)
+
+useTasks = a hook to access TaskContext anywhere in your component tree
+
+ARIA:
+
+Your webpage or component uses semantic HTML elements and ARIA (Accessible Rich Internet Applications) roles and labels to make the interface understandable and navigable for users relying on screen readers.
+Semantic HTML (like <button>, <form>, <nav>, and <dialog>) has built-in meaning and helps assistive technologies interpret the page correctly.
+When native HTML semantics are insufficient or unavailable (e.g., custom widgets or complex components), ARIA roles, states, and properties provide additional context about what elements are and how they behave.
+Labels (via aria-label, aria-labelledby, or descriptive text) ensure screen readers can accurately convey the purpose of interactive elements to users.
+
